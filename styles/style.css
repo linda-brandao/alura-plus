@@ -10,3 +10,13 @@ body {
     color: var(--branco-principal);
     box-sizing: border-box;
 }
+
+.container {
+    height: 100vh;
+}
+
+.principal {
+    background-image: url("/imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain; /*preencher todo o tamanho do container*/
+}
