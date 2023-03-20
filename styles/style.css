@@ -19,6 +19,8 @@ body {
     background-image: url("/imagens/Background.png");
     background-repeat: no-repeat;
     background-size: contain; /*preencher todo o tamanho do container*/
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -27,9 +29,17 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa{
+    margin: 0 6em;
+}
+
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.conteiner__imagem{
+    margin: 1em 0 2em 0;
 }
 
 .container__botao {
@@ -39,6 +49,7 @@ body {
     border-radius: 8px;
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
