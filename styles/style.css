@@ -112,3 +112,37 @@ body {
     font-size: 32px;
     font-weight: 700;
 }
+
+/*Estilizando footer*/
+.rodape {
+    margin: 3em 6em;
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 3em 0 2em;
+}
+
+.lista__link a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin: 2em 0;
+}
+
+.lista__link a:hover {
+    color: var(--azul-botao);
+}
+
+.lista__link a:active {
+    color: purple;
+}
