@@ -61,3 +61,22 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
+
+/*Estilizando section 2*/
+.secundario {
+    margin: 0 6em;
+    align-items: center;
+}
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: .1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
