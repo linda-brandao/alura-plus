@@ -11,12 +11,28 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    height: 100vh;
-}
-
 .principal {
     background-image: url("/imagens/Background.png");
     background-repeat: no-repeat;
     background-size: contain; /*preencher todo o tamanho do container*/
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    color: var(--branco-principal);
+    background-color: var(--azul-botao);
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
 }
